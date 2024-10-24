@@ -1,0 +1,21 @@
+.transactionHistory {
+    width: 100%; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    overflow: hidden; 
+  }
+  .tr-item {
+    background-color: darkblue; 
+    color: white; 
+    text-transform: uppercase;
+    padding: 20px 25px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; 
+  }
+  .td-item {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+  }

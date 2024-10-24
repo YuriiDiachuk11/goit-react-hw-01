@@ -1,0 +1,49 @@
+    p, h1,h2, ul, ol img {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    .profile-box {
+    border: 3px solid black ;
+    border-radius: 15px;
+    text-align: center;
+ }
+ .icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+ }
+.name {
+    font-weight: 700;
+    font-size: 42px;
+}
+.tag {
+    font-weight: 500;
+    font-size: 28px;
+}
+.location {
+    font-weight: 500;
+    font-size: 28px;
+}
+.stats-list {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    color: black;
+    border: 1px solid beige;
+    border-radius: 15px;
+}
+.stats-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid darkgray;
+   
+    
+}
+.item-text {
+    font-size: 24px;
+    font-weight: 500;
+}
